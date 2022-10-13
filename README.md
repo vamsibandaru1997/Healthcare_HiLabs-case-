@@ -818,8 +818,6 @@ Feature learning for Missing data_ML, a mechanism of training a shared global mo
 - **Federated Learning in Distributed Medical Databases: Meta-Analysis of Large-Scale Subcortical Brain Data** 
   - [[Paper]](https://arxiv.org/pdf/1810.08553.pdf) 
 
-- **Federated Learning of Electronic Health Records Improves Mortality Prediction in Patients Hospitalized with COVID-19** 
-  - [[Paper]](https://www.medrxiv.org/content/medrxiv/early/2020/08/14/2020.08.11.20172809.full.pdf) 
 
 - **FedHealth: A Federated Transfer Learning Framework for Wearable Healthcare** 
   - [[Paper]](https://arxiv.org/pdf/1907.09173.pdf) 
