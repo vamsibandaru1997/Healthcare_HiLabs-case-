@@ -1,31 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@vamsibandaru1997 
-REAN-Foundation
-/
-clinical-nlp-service
-Public
-Code
-Issues
-Pull requests
-8
-Actions
-Projects
-Security
-Insights
-clinical-nlp-service/src/modules/clinical_nlp/provider_impl/clinical.nlp.provider.aws.ts /
-@kiran-tikme-co
-kiran-tikme-co Adding AWS/GCP Clinical NLP tested implementation
-Latest commit ae9ca33 on May 5, 2021
- History
- 1 contributor
-508 lines (457 sloc)  18.6 KB
-
 import * as aws from "aws-sdk";
 import * as dotenv from "dotenv";
 import * as path from 'path';
