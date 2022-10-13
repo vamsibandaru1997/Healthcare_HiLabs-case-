@@ -9,6 +9,7 @@ import { Helper } from '../../../common/helper';
 ////////////////////////////////////////////////////////////////////////
 
 export class ClinicalNLP_AWS implements IClinicalNLPProvider {
+    private _phiEntities: any[] = [];
     private _icd10Entites: any[] = [];
     private _rxEntities: any[] = [];
     private _detectedEntities: any[] = [];
@@ -502,20 +503,3 @@ export class ClinicalNLP_AWS implements IClinicalNLPProvider {
         return relations;
     }
 }
-
-////////////////////////////////////////////////////////////////////////
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-clinical-nlp-service/src at main · REAN-Foundation/clinical-nlp-serviceclinical-nlp-service/clinical.nlp.provider.aws.ts at main · REAN-Foundation/clinical-nlp-service
