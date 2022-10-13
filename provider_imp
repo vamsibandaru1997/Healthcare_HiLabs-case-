@@ -9,7 +9,6 @@ import { Helper } from '../../../common/helper';
 ////////////////////////////////////////////////////////////////////////
 
 export class ClinicalNLP_AWS implements IClinicalNLPProvider {
-    private _phiEntities: any[] = [];
     private _icd10Entites: any[] = [];
     private _rxEntities: any[] = [];
     private _detectedEntities: any[] = [];
